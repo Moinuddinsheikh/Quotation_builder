@@ -1,0 +1,180 @@
+body {
+	margin: 0% 3% 2% 3%;
+	background: -webkit-linear-gradient(to right, #f8f8f8 25%, #73b8d9);
+	background: -moz-linear-gradient(to right, #f8f8f8 25%, #73b8d9);
+	background: linear-gradient(to right, #f8f8f8 25%, #73b8d9);
+/* 	background: linear-gradient(110deg, #f8f8f8 20%, #73b8d9); */
+}
+
+a{
+	color: #000;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+
+#main-logo{
+	width: 45%;
+	margin-left: 50%;
+}
+
+.header .col-lg-2{
+	text-align: center;
+}
+
+.head-links{
+	font-size: 12px;
+	color: #343a40;
+}
+
+.row-div{
+	padding: 50px 0px;
+}
+
+#main-tbl {
+	width: 100% !important;
+	border-bottom: 0;
+}
+
+.billfields-tbl, .srchfields-tbl{
+	border: 1px solid #555;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px gray;
+}
+
+.fields {
+	padding-right: 5%;
+	padding-bottom: 2.5%;
+	padding-top: 2.5%;
+}
+
+#resultbtn, #createbtn {
+	width: 300px;
+	margin-left: 25px;
+}
+
+.table {
+	background-color: #fbfbfb;
+	box-shadow: 0px 0px 20px grey;
+}
+
+table.dataTable tbody tr {
+	background-color: #fbfbfb;	
+}
+
+.table thead th , .td-center {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.table tbody td {
+	vertical-align: middle;
+}
+
+.errormsg {
+	color: red;
+	font-size: 12px;
+	display: none;
+}
+
+.load-icon {
+	width: 25px;
+	display: none;
+	margin-inline-start: 10px;
+}
+
+.clr-srchinp-btn {
+	cursor: pointer;
+	padding: 7px;
+	width: 38px;
+	background-color: revert;
+	border: revert;
+	opacity: 0.5;
+}
+
+.bill-inputs{
+	-moz-appearance: textfield;
+	text-align: center;
+}
+
+.billinput-divs input{
+	width: 60px;	
+}
+
+#qty-input{
+	width: 15px;
+}
+
+.invalid{
+	box-shadow: 0px 0px 0px 0.15rem #ff000088 !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.bill-inputs:invalid{
+	box-shadow: none;
+}
+
+.input-cols{
+	width: 110px;
+}
+
+.billinput-divs{
+	display: flex;
+}
+
+.billinput-labels{
+	margin-left: 5px;
+}
+
+#billtbl-empty, #main-head{
+	text-align: center;
+}
+
+hr{
+	border-top-color: #0007;
+	box-shadow: 0px 2px 5px gray;
+	margin-left: -3%;
+	margin-right: -3%;
+}
+
+.redtext{
+	color: red;
+}
+
+#scrolltop-icon{
+	display: none;
+	position: fixed;
+	right: 3%;
+	bottom: 3%;
+	z-index: 2;
+	background-color: #000;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	box-shadow: 0px 0px 10px gray;
+}
+
+.scrolltop-icon img{
+	width: 35px;
+}
+
+.checkbox-enbl{
+	margin-left: 3px;
+    transform: scale(1.2);	
+}
+
+.btn:disabled{
+	cursor: auto;
+}
+
+.export-icon{
+	width: 40px;
+	margin-left: 20px;
+}
