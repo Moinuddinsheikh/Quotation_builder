@@ -21,7 +21,7 @@ Main objectives are as follows: It enables searching for the products that the c
 <img src="/images/indexinput2.JPG" title="Quotation generation inputs." >
 <img src="/images/indexinput3.JPG" title="Quotation generation inputs." >
 <img src="/images/indexinput4.JPG" title="Quotation generation inputs." >
-<img src="/images/indexinput4.JPG" title="Quotation generation inputs." >
+<img src="/images/indexinput5.JPG" title="Quotation generation inputs." >
 <img src="/images/index6.JPG" title="Quotation generation inputs." >
 
 #### Create new Product 
